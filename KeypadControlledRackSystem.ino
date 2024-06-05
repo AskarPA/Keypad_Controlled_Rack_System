@@ -55,8 +55,8 @@ void loop(){
     digitalWrite(GLed, HIGH);
     digitalWrite(RLed, LOW);
     digitalWrite(Buzzer, HIGH);  // Turn on the buzzer
-    delay(500);  // Wait for 1 second
-    digitalWrite(Buzzer, LOW);  // Turn off the buzzer after 1 second
+    delay(500);  // Wait for 0.5 second
+    digitalWrite(Buzzer, LOW);  // Turn off the buzzer after 0.5 second
     }
     if(count==8)
     {
@@ -79,8 +79,8 @@ void loop(){
     digitalWrite(GLed, HIGH);
     digitalWrite(RLed, LOW);
     digitalWrite(Buzzer, HIGH);  // Turn on the buzzer
-    delay(500);  // Wait for 1 second
-    digitalWrite(Buzzer, LOW);  // Turn off the buzzer after 1 second
+    delay(500);  // Wait for 0.5 second
+    digitalWrite(Buzzer, LOW);  // Turn off the buzzer after 0.5 second
     }
     if(count==8)
     {
@@ -95,8 +95,8 @@ void loop(){
       digitalWrite(GLed, HIGH);
       digitalWrite(RLed, LOW);
       digitalWrite(Buzzer, HIGH);  // Turn on the buzzer
-      delay(500);  // Wait for 1 second
-      digitalWrite(Buzzer, LOW);  // Turn off the buzzer after 1 second
+      delay(500);  // Wait for 0.5 second
+      digitalWrite(Buzzer, LOW);  // Turn off the buzzer after 0.5 second
     }
     }
           }
